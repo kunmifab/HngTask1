@@ -20,7 +20,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('profile', [function() {
     return response()->json([
-        'slackUsername' => 'KunmiFab', "backend" => true, "age"=> 24, "bio"=> "I am a backend developer on a mission to build scalable apps and gain experience on this internship program"
+        'slackUsername' => 'KunmiFab', "backend" => true, "age" => 24, "bio" => "I am a backend developer on a mission to build scalable apps and gain experience on this internship program."
 
     ]);
 
